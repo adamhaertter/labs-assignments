@@ -1,0 +1,27 @@
+CSC111 Computer Science II
+Project 1: Stack & Queue ADT Juggler - readme
+Programmer: Adam Haertter
+Professor: Dr. Lee
+
+Program Description: 
+Implements both Stack and Queue Abstract Data Types
+Reads commands from a file, adding values to a stack and queue,
+then adds the values to the opposite after deleting from the original
+
+Files Included:
+sqjuggler.h
+sqjuggler.c
+stack.c
+queue.c
+readme
+makefile
+
+How to Compile:
+1) make
+
+How to Run:
+./sqjuggler <input_file>
+
+Known Bugs:
+N/A
+

@@ -1,0 +1,58 @@
+/* CSC111 Computer Science II
+ * Lab 12: readme
+ * Programmers: Austin Sheppard, Adam Haertter, & Yong Hang Lin
+ * Professor: Dr. Lee
+ * File Created: November 11th, 2019
+ * File Updated: November 11th, 2019
+ */
+
+Program Description:
+
+Files Included:
+Source code: lab12.c
+Extra Files: lab12.h
+	     makefile
+	     readme
+
+
+How to Compile:
+1. make
+
+
+How to Run:
+./lab12
+
+
+Known Bugs:
+N/A
+
+
+Algorithm:
+Input: String
+Output: String in Pig Latin
+
+1.	print prompt
+2. 	scan for string
+3. 	add "- "
+4.	if (fc == vowel) {
+4.1.	Add "w";
+	}
+5.1.	else if (has Vowel()) {
+5.2.	Find vowel position
+5.3.	Move letters until vowel to the end
+	}
+
+6.1.	else if (has Y())
+	{
+6.2.	Find y position
+6.3.	Move letters until y to the end
+	}
+7.1.	else if (no Vowel())
+	{
+7.2.	Add "w";
+	}
+	
+8.	Add "ay";
+
+9.	Print result;
+

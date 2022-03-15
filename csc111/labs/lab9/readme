@@ -1,0 +1,15 @@
+Program Description:
+	Produces sum of squares from a range of numbers
+
+Files Created:
+	lab9.c
+
+How to compile:
+	1. make
+	2. gcc lab9.c -o lab9
+
+How to run:
+	./lab9
+
+Known Bugs:
+

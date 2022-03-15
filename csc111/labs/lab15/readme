@@ -1,0 +1,40 @@
+CSC111 Computer Science II
+Lab 15 Quicksort: readme
+Programmer: Scott Bucher, Adam Haertter
+Professor: Dr. Lee
+File Created: Nov 18, 2019
+File Updated: Nov 18, 2019
+
+Algorithm:
+INPUT: Array
+OUTPUT: Sorted array
+O(n^2)
+1.0 Set high and low pointers at bounds of array
+  1.1 Split array to find center point
+  1.2 If low value < high valye
+    1.2.1 Shift high downward
+  1.3 If low value > high value
+    1.3.1 Shift low upward
+  1.4 If low index >= high index
+    1.4.1 Terminate Program
+2.0 Quicksort using the arrays on either side of the new pivot
+  2.1 Continue recursively until array is in order
+
+Program Description: 
+Performs quicksort on an array of integers
+
+Files Included:
+qsort.c
+readme
+makefile
+
+How to Compile:
+1) make
+2) gcc -o qsort qsort.c
+
+How to Run:
+./qsort
+
+Known Bugs:
+N/A
+

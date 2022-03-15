@@ -1,0 +1,24 @@
+CSC111 Computer Science II
+Lab 11: xor.c
+Programmer: Scott Bucher & Adam Haertter
+Professor: Dr. Lee
+File Created: Nov 8, 2019
+
+Program Description: 
+Preforms a XOR encryption
+
+Files Included:
+xor.c
+readme
+makefile
+
+How to Compile:
+1) make
+2) gcc -o xor xor.c
+
+How to Run:
+./xor
+
+Known Bugs:
+N/A
+

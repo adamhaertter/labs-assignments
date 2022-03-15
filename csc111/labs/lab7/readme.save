@@ -1,0 +1,19 @@
+CSC111: Computer Science II
+Remind 2: readme
+Programmers: Adam Haertter & Andrew Kress
+Professor: Dr. Lee
+Date Created: 10/21/19
+Date Modified: 10/21/19
+
+Program Description:
+	Prints a one month reminder list (updated version)
+
+Files Included:
+	Source code: remindb.c
+	Extra Files: makefile
+
+How to Compile:
+	1: make
+	2: gcc -g -Wall remindb.c
+
+Known Bugs:

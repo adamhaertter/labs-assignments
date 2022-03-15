@@ -1,0 +1,42 @@
+CSC111 Computer Science II
+Lab 14: p585n6.c
+Programmer: Scott Bucher, Adam Haertter, Andrew Kress
+Professor: Dr. Lee
+File Created: Nov 13, 2019
+File Updated: Nov 17, 2019
+
+Algorithim:
+INPUT: File
+OUTPUT: Table
+
+print table header and dashes
+
+while() -> read through file
+    print offset and space
+    print 10 bytes limited to 2 chars
+    print spaces between
+    print characters directly from file
+    move to next line until EOF
+
+close file
+
+
+Program Description: 
+Reads throught the given file and prints the file as bytes and characters
+
+Files Included:
+pun.c
+p585n6.c
+readme
+makefile
+
+How to Compile:
+1) make
+2) gcc -o p585n6 p585n6.c
+
+How to Run:
+./p585n6
+
+Known Bugs:
+N/A
+

@@ -1,0 +1,26 @@
+CSC111 Computer Science II
+Lab 16 Binary Search Tree: readme
+Programmer: Scott Bucher, Adam Haertter
+Professor: Dr. Lee
+File Created: Nov 25, 2019
+File Updated: Nov 25, 2019
+
+Program Description: 
+Preforms a search through a binary tree
+Code from p690-691 of our textbook
+
+Files Included:
+airmiles.c
+readme
+makefile
+
+How to Compile:
+1) make
+2) gcc -o airmiles airmiles.c
+
+How to Run:
+./airmiles
+
+Known Bugs:
+N/A
+

@@ -1,0 +1,26 @@
+/* CSC111 Computer Science II
+ * Lab 13: readme
+ * Programmers: Adam Haertter
+ * Professor: Dr. Lee
+ * File Created: November 13th, 2019
+ * File Updated: November 13th, 2019
+ */
+
+Program Description:
+
+Files Included:
+Source code: fcopy.c
+Extra Files: makefile
+	     readme
+
+
+How to Compile:
+1. make
+
+
+How to Run:
+./fcopy
+
+
+Known Bugs:
+N/A

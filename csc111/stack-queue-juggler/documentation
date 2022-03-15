@@ -1,0 +1,119 @@
+CSC111 Computer Science II
+Project 1: Stack & Queue ADT Juggler – documentation
+Programmer: Adam Haertter
+Professor: Dr. Lee
+
+Program Description
+	Implements Stack and Queue Abstract Data Types (ADTs) and reads add and delete commands out of an input file to manage a set of data. When commanded to add, adds the value to both a stack and a queue. When commanded to delete, pops a value off the top of the stack and dequeues a value off the front of the queue. Then, the value popped from the stack is enqueued into a separate outQueue, while the value dequeued from the queue is pushed into a separate outStack. Commands are followed until the end of the file.
+
+Function Descriptions
+	void terminate(const char *message)
+-	Prints an error message and stops program with EXIT_FAILURE
+Stack createStack();
+-	Creates a Stack, sets the top value to NULL, and then returns the Stack
+Queue createQueue()
+-	Creates a Queue, sets the front and end values to NULL, and then returns the Queue
+void destroyStack(Stack s);
+-	Pops from the Stack input until empty and then frees it from memory
+void empty_stack(Stack s);
+-	Pops from the Stack input until empty
+int stack_is_empty(Stack s);
+-	Returns 1 if the Stack input is empty, 0 if not
+Int stack_is_full(Stack s);
+-	Returns false (In a linked list implementation, the stack will never fill)
+void push(Stack s, Item i);
+-	Adds Item I to the top of Stack s, then shifts the pointer for the top Item to the new top of the Stack
+Item pop(Stack s);
+-	Removes the top item from the top of Stack s, adjusts the pointer to the top Item to the new top Item, and returns the value of the Item that was removed
+void destroyQueue(Queue q);
+-	Dequeues from the Queue input until empty and then frees it from memory
+void empty_queue(Queue q);
+-	Dequeues from the Queue input until empty
+int queue_is_empty(Queue q);
+-	Returns 1 if the Queue input is empty (has no Items), 0 if not
+void enqueue(Queue q, Item i);
+-	Adds Item I to the end of Queue q, then shifts the pointer for the end Item to the new end of the Queue and sets the pointer for the old end’s previous Item to that of the new end
+Item dequeue(Queue q);
+-	Removes the front item from Queue q, adjusts the pointer to the front Item to the new front Item, and returns the value of the Item that was dequeued
+void add(int toAdd)
+-	Pushes int toAdd into inStack and enqueues int toAdd onto inQueue
+void del()
+-	Pops the top value from inStack and enqueues it into outQueue
+-	Dequeues the front value from inQueue and pushes it into inStack
+
+Algorithm
+INPUT: File
+OUTPUT: Order of outStack and outQueue
+O(n)
+1.0	Open file using file pointer
+	1.1	if(wrong number of arguments)
+		1.1.1	Print error message and quit
+	1.2	if(file cannot be opened)
+		1.2.1	Print error message and quit
+2.0	while(read through file until end)
+	2.1	if(file says add)
+		2.1.1	Get number value and convert to int
+		2.1.2	Push into stack
+		2.1.3	Enqueue into queue
+	2.2	else if(file says delete)
+		2.2.1	Pop from stack and enqueue into queue
+		2.2.2	Dequeue from queue and push into stack
+	2.3	else
+		2.3.1	continue (invalid command)
+3.0	Close file
+4.0	Print stack
+	4.1	while(stack is not empty)
+		4.1.1	Pop and print every value
+5.0	Print queue
+	5.1	while(queue is not empty)
+		5.1.1	Dequeue and print every value
+6.0	Destroy stack and queue (memory management)
+
+Analysis
+Using the example test.dat:
+add 3
+•	Pushes 3 onto the top of inStack
+•	Enqueues 3 onto the end of inQueue
+add 2
+•	Pushes 2 onto the top of inStack
+•	Enqueues 2 onto the end of inQueue
+delete
+•	Pops 2 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 3 from the front of inQueue and pushes it onto the top of outStack
+add 5
+•	Pushes 5 onto the top of inStack
+•	Enqueues 5 onto the end of inQueue
+delete 
+•	Pops 5 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 2 from the front of inQueue and pushes it onto the top of outStack
+add 10
+•	Pushes 10 onto the top of inStack
+•	Enqueues 10 onto the end of inQueue
+add 7
+•	Pushes 7 onto the top of inStack
+•	Enqueues 7 onto the end of inQueue
+delete 
+•	Pops 7 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 5 from the front of inQueue and pushes it onto the top of outStack
+add 0
+•	Pushes 0 onto the top of inStack
+•	Enqueues 0 onto the end of inQueue
+delete 
+•	Pops 0 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 10 from the front of inQueue and pushes it onto the top of outStack
+add 11
+•	Pushes 11 onto the top of inStack
+•	Enqueues 11 onto the end of inQueue
+delete 
+•	Pops 11 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 7 from the front of inQueue and pushes it onto the top of outStack
+delete 
+•	Pops 10 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 0 from the front of inQueue and pushes it onto the top of outStack
+delete 
+•	Pops 3 from the top inStack and enqueues it onto the end of outQueue
+•	Dequeues 11 from the front of inQueue and pushes it onto the top of outStack
+Resulting in a final output of:
+outStack: 11 0 7 10 5 2 3
+outQueue: 2 5 7 0 11 10 3
+

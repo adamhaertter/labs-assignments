@@ -1,0 +1,22 @@
+CSC111: Computer Science II
+Inventory 2:readme
+Programmer: Andrew Kress & Adam Haertter
+Professor: Dr. Lee
+Date Created: 10/21/19
+Date Modified: 10/21/19
+
+Program Description: 
+    Maintains a parts database (linked list version)
+
+Files Included: 
+    Source Code: inventory.c, readline.h, readline.c
+    Extra Files: makefile
+
+How to Compile:
+    1: make
+    2: gcc -g -Wall inventory2.c readline.c -o inventory2
+
+How to Run:
+    ./inventory2
+
+Known Bugs:
