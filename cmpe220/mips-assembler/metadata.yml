@@ -1,0 +1,13 @@
+---
+:id: 55901557
+:submitters:
+- :name: Adam Haertter
+  :email: ah2005@ship.edu
+- :name: Trevor Grohowski
+  :email: tg3469@ship.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2020-11-18 00:28:19.915701000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2020-11-17 16:28:19.915701000 Z
+:status: processed
