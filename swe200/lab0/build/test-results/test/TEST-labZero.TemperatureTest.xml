@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="labZero.TemperatureTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-08-25T18:24:03" hostname="DESKTOP-SS7KOTE" time="0.009">
+  <properties/>
+  <testcase name="testCtoC" classname="labZero.TemperatureTest" time="0.003"/>
+  <testcase name="testCtoF" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testCtoK" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoC" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoF" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoK" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testKtoC" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testKtoF" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testKtoK" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testUninitialized" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapCelsiusF1" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapCelsiusF2" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapCelsiusF3" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapKelvinF1" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapKelvinF2" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testSwapKelvinF3" classname="labZero.TemperatureTest" time="0.001"/>
+  <testcase name="testInvalidTemperatureKelvin" classname="labZero.TemperatureTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
