@@ -13,3 +13,4 @@ For example, a program that encounters a segmentation fault on a bad input will 
 | --------- | ------------          | --------  |
 | cmpe220   | Computer Organization | Fall 2020 |
 | csc111    | Computer Science II   | Fall 2019 |
+| swe200    | Design Patterns       | Fall 2020 |
