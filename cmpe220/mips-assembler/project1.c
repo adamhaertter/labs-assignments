@@ -33,6 +33,7 @@ int main(int argc, char** argv)
 		}
 	
 		parsed_t instruction;
+		instruction.shamt = "";				// Prevent code from segfaulting on r-type input first
 		instruction.is_valid = true;
 		parse_string(input, &instruction); 	// Separates the mnemonic from the data
 	
