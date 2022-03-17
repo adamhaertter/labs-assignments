@@ -18,6 +18,7 @@ With the exception of lab0, one running project made up all of the labs in this 
 This program makes use of various design patterns in its composition.
 Each stage of the lab consisted of adding new functionality to the game corresponding to a different design pattern strategy.
 
+The project is currently stored at https://github.com/adamhaertter/design-patterns-game, with all original commits preserved.
 
 <br>
 
@@ -27,7 +28,6 @@ Each stage of the lab consisted of adding new functionality to the game correspo
 - Brennan Mulligan
 - Josh Lewis
 - Evan Paules
-
 
 <br>
 
