@@ -1,4 +1,4 @@
-# labs-assignments
+# labs-resume
 A compilation of various labs and projects from multiple classes throughout my school experience.
 
 ## What is this?
