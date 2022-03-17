@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="labZero.TemperatureTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-08-25T17:12:41" hostname="DESKTOP-SS7KOTE" time="0.105">
+  <properties/>
+  <testcase name="testInvalidTemperatureCelsius" classname="labZero.TemperatureTest" time="0.101"/>
+  <testcase name="testFtoC2" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoK2" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testCtoF" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoC" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testFtoK" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testKtoC" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testKtoF" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testInvalidTemperatureFahrenheit" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testUninitialized" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testUninitialized2" classname="labZero.TemperatureTest" time="0.0"/>
+  <testcase name="testInvalidTemperatureKelvin" classname="labZero.TemperatureTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
