@@ -11,5 +11,5 @@ For example, a program that encounters a segmentation fault on a bad input will 
 ## Folder Guide
 | Course ID | Course Title          | Duration  |
 | --------- | ------------          | --------  |
-| csc111    | Computer Science II   | Fall 2019 |
 | cmpe220   | Computer Organization | Fall 2020 |
+| csc111    | Computer Science II   | Fall 2019 |
