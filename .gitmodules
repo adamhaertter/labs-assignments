@@ -1,0 +1,3 @@
+[submodule "swe200/alien-game"]
+	path = swe200/alien-game
+	url = https://github.com/adamhaertter/alien-game.git
