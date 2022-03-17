@@ -1,7 +1,9 @@
-# MIPS Assembler
+# Aliens vs. Humans Game
 
+<p float="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="50">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" height="50">
+</p>
 
 
 ## Program Description: 
