@@ -1,0 +1,35 @@
+task zipzip(type: Zip) {
+  archiveName = 'lab0-name.zip'
+  from projectDir
+  excludes = ["**/.gradle"]
+  includes=["src/**/*"]
+  destinationDir = file("${buildDir}/dist")
+}
+
+task testZip(type: Zip) {
+  archiveName = 'lab0-instructor-tests.zip'
+  from sourceSets.test.output
+  excludes = ["**/.gradle"]
+  destinationDir = file("${buildDir}/dist")
+}
+
+task downloadFile(type: Download) {
+  quiet true
+  src 'https://www.dropbox.com/s/xl729xvcfg1zur7/lab0-instructor-tests.zip?dl=1'
+  dest new File(buildDir, 'dist/instructor-tests.zip')
+}
+
+task downloadAndUnzip(dependsOn: downloadFile, type: Copy) {
+  from zipTree(downloadFile.dest)
+  into new File(buildDir, 'instructor')
+}
+
+task instTest(dependsOn: downloadAndUnzip, type: Test) {
+  description = "Running tests from Instructor"
+
+  testClassesDirs = files("$buildDir/instructor")
+  classpath = sourceSets.main.output + testClassesDirs + sourceSets.test.runtimeClasspath
+
+  print "\nTest reports can be found at: file://${reports.html.entryPoint}\n"
+}
+

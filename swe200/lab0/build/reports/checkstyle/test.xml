@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.11">
+<file name="D:\AdamH\Desktop Files\School Stuff\Sophomore College\Design Patterns\SWE-200-0102 - Design Patterns  (Huo) - 8242020 - 335 PM\lab0\src\test\java\labZero\TemperatureTest.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;labZero&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+</checkstyle>
