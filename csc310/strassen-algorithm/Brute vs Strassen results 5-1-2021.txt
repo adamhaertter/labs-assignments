@@ -1,0 +1,38 @@
+Brute Force test results: 
+Pair 1: 1777 ms | Pair 2: 3505 ms | Pair 3: 4407 ms | Pair 4: 4113 ms | Pair 5: 3978 ms | Pair 6: 4089 ms | Pair 7: 4070 ms | Pair 8: 3881 ms | Pair 9: 4233 ms | Pair 10: 4319 ms | Pair 11: 2236 ms | Pair 12: 2362 ms | Pair 13: 2545 ms | Pair 14: 2640 ms | Pair 15: 2636 ms | Pair 16: 2446 ms | Pair 17: 2489 ms | Pair 18: 2610 ms | Pair 19: 2605 ms | Pair 20: 2478 ms | 
+
+Strassen test results with cutoff 1: 
+Pair 1: 175879 ms | Pair 2: 170743 ms | Pair 3: 171987 ms | Pair 4: 171512 ms | Pair 5: 171758 ms | Pair 6: 171761 ms | Pair 7: 2461242 ms | Pair 8: 168607 ms | Pair 9: 168073 ms | Pair 10: 171668 ms | Pair 11: 167072 ms | Pair 12: 167469 ms | Pair 13: 1037504 ms | Pair 14: 166651 ms | Pair 15: 166367 ms | Pair 16: 167799 ms | Pair 17: 167175 ms | Pair 18: 167662 ms | Pair 19: 164521 ms | Pair 20: 164515 ms | 
+Strassen test results with cutoff 2: 
+Pair 1: 38722 ms | Pair 2: 38678 ms | Pair 3: 38672 ms | Pair 4: 38681 ms | Pair 5: 38969 ms | Pair 6: 38839 ms | Pair 7: 38855 ms | Pair 8: 38731 ms | Pair 9: 38724 ms | Pair 10: 38702 ms | Pair 11: 39230 ms | Pair 12: 38758 ms | Pair 13: 38830 ms | Pair 14: 39310 ms | Pair 15: 38859 ms | Pair 16: 38649 ms | Pair 17: 38846 ms | Pair 18: 39254 ms | Pair 19: 38704 ms | Pair 20: 39013 ms | 
+Strassen test results with cutoff 3: 
+Pair 1: 9543 ms | Pair 2: 9482 ms | Pair 3: 9479 ms | Pair 4: 9530 ms | Pair 5: 9504 ms | Pair 6: 9545 ms | Pair 7: 9542 ms | Pair 8: 9402 ms | Pair 9: 9472 ms | Pair 10: 9556 ms | Pair 11: 9426 ms | Pair 12: 9555 ms | Pair 13: 9493 ms | Pair 14: 9492 ms | Pair 15: 9450 ms | Pair 16: 9468 ms | Pair 17: 9480 ms | Pair 18: 9527 ms | Pair 19: 9415 ms | Pair 20: 9506 ms | 
+Strassen test results with cutoff 4: 
+Pair 1: 2777 ms | Pair 2: 2822 ms | Pair 3: 2765 ms | Pair 4: 2806 ms | Pair 5: 2749 ms | Pair 6: 2870 ms | Pair 7: 2749 ms | Pair 8: 2810 ms | Pair 9: 2824 ms | Pair 10: 2772 ms | Pair 11: 2810 ms | Pair 12: 2824 ms | Pair 13: 2788 ms | Pair 14: 2761 ms | Pair 15: 2787 ms | Pair 16: 2793 ms | Pair 17: 2835 ms | Pair 18: 2737 ms | Pair 19: 2835 ms | Pair 20: 2807 ms | 
+Strassen test results with cutoff 5: 
+Pair 1: 1180 ms | Pair 2: 1203 ms | Pair 3: 1154 ms | Pair 4: 1167 ms | Pair 5: 1169 ms | Pair 6: 1149 ms | Pair 7: 1170 ms | Pair 8: 1176 ms | Pair 9: 1157 ms | Pair 10: 1169 ms | Pair 11: 1165 ms | Pair 12: 1172 ms | Pair 13: 1185 ms | Pair 14: 1194 ms | Pair 15: 1192 ms | Pair 16: 1155 ms | Pair 17: 1176 ms | Pair 18: 1173 ms | Pair 19: 1166 ms | Pair 20: 1182 ms | 
+Strassen test results with cutoff 6: 
+Pair 1: 704 ms | Pair 2: 703 ms | Pair 3: 733 ms | Pair 4: 760 ms | Pair 5: 690 ms | Pair 6: 703 ms | Pair 7: 762 ms | Pair 8: 703 ms | Pair 9: 713 ms | Pair 10: 762 ms | Pair 11: 713 ms | Pair 12: 718 ms | Pair 13: 745 ms | Pair 14: 718 ms | Pair 15: 694 ms | Pair 16: 746 ms | Pair 17: 717 ms | Pair 18: 718 ms | Pair 19: 760 ms | Pair 20: 703 ms | 
+Strassen test results with cutoff 7: 
+Pair 1: 643 ms | Pair 2: 656 ms | Pair 3: 644 ms | Pair 4: 656 ms | Pair 5: 645 ms | Pair 6: 656 ms | Pair 7: 646 ms | Pair 8: 641 ms | Pair 9: 656 ms | Pair 10: 656 ms | Pair 11: 725 ms | Pair 12: 656 ms | Pair 13: 643 ms | Pair 14: 641 ms | Pair 15: 653 ms | Pair 16: 640 ms | Pair 17: 648 ms | Pair 18: 641 ms | Pair 19: 694 ms | Pair 20: 640 ms | 
+Strassen test results with cutoff 8: 
+Pair 1: 618 ms | Pair 2: 625 ms | Pair 3: 622 ms | Pair 4: 635 ms | Pair 5: 620 ms | Pair 6: 625 ms | Pair 7: 629 ms | Pair 8: 625 ms | Pair 9: 615 ms | Pair 10: 651 ms | Pair 11: 613 ms | Pair 12: 625 ms | Pair 13: 617 ms | Pair 14: 625 ms | Pair 15: 637 ms | Pair 16: 636 ms | Pair 17: 617 ms | Pair 18: 640 ms | Pair 19: 615 ms | Pair 20: 609 ms | 
+Strassen test results with cutoff 9: 
+Pair 1: 781 ms | Pair 2: 766 ms | Pair 3: 753 ms | Pair 4: 765 ms | Pair 5: 765 ms | Pair 6: 766 ms | Pair 7: 778 ms | Pair 8: 777 ms | Pair 9: 758 ms | Pair 10: 781 ms | Pair 11: 770 ms | Pair 12: 765 ms | Pair 13: 791 ms | Pair 14: 777 ms | Pair 15: 888 ms | Pair 16: 1000 ms | Pair 17: 841 ms | Pair 18: 781 ms | Pair 19: 869 ms | Pair 20: 781 ms | 
+Strassen test results with cutoff 10: 
+Pair 1: 1182 ms | Pair 2: 1168 ms | Pair 3: 1116 ms | Pair 4: 1146 ms | Pair 5: 1228 ms | Pair 6: 1332 ms | Pair 7: 1298 ms | Pair 8: 1131 ms | Pair 9: 1210 ms | Pair 10: 1151 ms | Pair 11: 1164 ms | Pair 12: 1197 ms | Pair 13: 1242 ms | Pair 14: 1298 ms | Pair 15: 1215 ms | Pair 16: 1301 ms | Pair 17: 1130 ms | Pair 18: 1141 ms | Pair 19: 1262 ms | Pair 20: 1300 ms | 
+
+
+RETEST FOR BRUTE AND STRASSEN 1
+Brute Force test results: 
+Pair 1: 4450 ms | Pair 2: 5472 ms | Pair 3: 5982 ms | Pair 4: 5384 ms | Pair 5: 4926 ms | Pair 6: 5916 ms | Pair 7: 6281 ms | Pair 8: 5281 ms | Pair 9: 5341 ms | Pair 10: 5585 ms | Pair 11: 6089 ms | Pair 12: 6192 ms | Pair 13: 6367 ms | Pair 14: 3700 ms | Pair 15: 3794 ms | Pair 16: 4108 ms | Pair 17: 4147 ms | Pair 18: 3859 ms | Pair 19: 3770 ms | Pair 20: 4033 ms | 
+
+Strassen test results with cutoff 1: 
+Pair 1: 235927 ms | Pair 2: 241917 ms | Pair 3: 236491 ms | Pair 4: 241905 ms | Pair 5: 233068 ms | Pair 6: 238586 ms | Pair 7: 236493 ms | Pair 8: 238225 ms | Pair 9: 240923 ms | Pair 10: 237339 ms | Pair 11: 236562 ms | Pair 12: 241056 ms | Pair 13: 236164 ms | Pair 14: 193722 ms | Pair 15: 177527 ms | Pair 16: 176762 ms | Pair 17: 175508 ms | Pair 18: 175012 ms | Pair 19: 174213 ms | Pair 20: 173658 ms | 
+
+RETEST 2
+Brute Force test results: 
+Pair 1: 1690 ms | Pair 2: 3000 ms | Pair 3: 3867 ms | Pair 4: 3795 ms | Pair 5: 3625 ms | Pair 6: 4055 ms | Pair 7: 3989 ms | Pair 8: 3810 ms | Pair 9: 3963 ms | Pair 10: 3674 ms | Pair 11: 2367 ms | Pair 12: 2470 ms | Pair 13: 2742 ms | Pair 14: 2164 ms | Pair 15: 2296 ms | Pair 16: 2100 ms | Pair 17: 2588 ms | Pair 18: 2720 ms | Pair 19: 2264 ms | Pair 20: 2787 ms | 
+
+Strassen test results with cutoff 1: 
+Pair 1: 163843 ms | Pair 2: 170955 ms | Pair 3: 169705 ms | Pair 4: 171618 ms | Pair 5: 169901 ms | Pair 6: 171581 ms | Pair 7: 173354 ms | Pair 8: 173132 ms | Pair 9: 172154 ms | Pair 10: 172675 ms | Pair 11: 174018 ms | Pair 12: 174810 ms | Pair 13: 173736 ms | Pair 14: 173558 ms | Pair 15: 175372 ms | Pair 16: 175324 ms | Pair 17: 174652 ms | Pair 18: 170688 ms | Pair 19: 170640 ms | Pair 20: 169541 ms | 
