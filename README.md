@@ -9,9 +9,10 @@ In most cases, the projects here will be left as they are, even if that means th
 For example, a program that encounters a segmentation fault on a bad input will still likely do that, but I want to keep them as they are to preserve them in some fashion.
 
 ## Folder Guide
-| Course ID | Course Title                    | Duration  |
-| --------- | ------------                    | --------  |
+| Course ID | Course Title                    | Duration    |
+| --------- | ------------                    | --------    |
 | cmpe220   | Computer Organization           | Fall 2020   |
+| cmpe320   | Operating Systems               | Spring 2022 |
 | csc111    | Computer Science II             | Fall 2019   |
 | csc310    | Design & Analysis of Algorithms | Spring 2021 |
 | swe200    | Design Patterns                 | Fall 2020   |
