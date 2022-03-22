@@ -1,3 +1,6 @@
 [submodule "swe200/design-patterns-game"]
 	path = swe200/design-patterns-game
 	url = https://github.com/adamhaertter/design-patterns-game.git
+[submodule "cmpe320/wish-shell"]
+	path = cmpe320/wish-shell
+	url = https://github.com/adamhaertter/wish-shell.git
